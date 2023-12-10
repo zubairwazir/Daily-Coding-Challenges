@@ -18,6 +18,6 @@ scores = [score for score in scores if score[1] == sec_min_score[1]]
 scores.sort(key= lambda x: x[0])
 
 for score in scores:
-    print(score)
+    print(score[0])
 
 
